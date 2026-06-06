@@ -1,0 +1,67 @@
+﻿+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="MasterPage1"  %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>FIRST Website</title>
+
+</head>
+
+<body>
+    <form runat="server">
+
+
+        <nav>
+            <a href="mastercontrol.aspx">Home</a> |
+            <a href="fll.aspx">FLL</a> |
+            <a href="ftc.aspx">FTC</a> |
+            <a href="frc.aspx">FRC</a> |
+            <a href="sign up page.aspx">sign up page</a>|
+            <a href="gallery.aspx">gallery</a>|
+            <a href="sign_in.aspx">sign in</a>|
+            <a href="AcountDetails.aspx">My Account</a>|
+            <a href="password_changer.aspx">change password</a>|
+            <a href="admin.aspx">admin</a>|
+            <a href="about_us.aspx">pandablitz 994</a>|
+        </nav>
+
+        <header>
+            <div class="header-row">
+    <img src="images/firstlogo.jpg" alt="FIRST logo" class="logo">
+    <h1>Welcome to the unofficial FIRST website</h1>
+</div>
+        </header>
+        <asp:ContentPlaceHolder ID="head" runat="server" />
+        <main>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+
+        <footer>
+            
+                        <div class="header-row">
+    <img src="images/dazai.jpg" alt="FIRST logo" class="pfp" width="100px" height="auto">
+    <h1>about the creator</h1>
+</div>
+    <p1>hi, this is the creator speaking how are you doing today i hope you are doing well.
+my name is tomer. i compete in the fll with my team PandaBlitz #994.
+my hobbies are:</p1>
+
+                <ul>
+  <li>FLL</li>
+  <li>skating</li>
+  <li>playing dnd</li>
+  <li>playing the guitar</li>
+  <li>listening to music</li>
+  <li>sleeping</li>
+</ul>
+<p1>i hope you will enjoy my website
+    have a wonderful day
+    Tomer Shamia Ben
+</p1>
+            <asp:Label ID="lblCounter" runat="server" />
+        </footer>
+
+    </form>
+</body>
+</html>

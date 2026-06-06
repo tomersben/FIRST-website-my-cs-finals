@@ -1,0 +1,48 @@
+﻿ 
+    body
+
+{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1{
+    color:red;
+    font:italic
+}
+footer{
+    background-color:lightgray;
+    color:red
+    
+}
+header{
+    background-color:white
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.header-row {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+.banner {
+    width: 600px; 
+    height: auto;
+}
+.pfp{
+    width: 100px;
+    height:auto;
+}
+h2{
+    color:darkslategray
+}
+
+
